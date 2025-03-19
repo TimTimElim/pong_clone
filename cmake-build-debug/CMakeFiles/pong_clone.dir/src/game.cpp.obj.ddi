@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\pong_clone.dir\\src\\game.cpp.obj",
+            "outputs": [
+                "C:\\Users\\Tim\\dev\\SFML\\pong_clone\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\pong_clone.dir\\src\\game.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
