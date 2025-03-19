@@ -1,0 +1,257 @@
+Detecting compiler hash for triplet x64-windows...
+A suitable version of powershell-core was not found (required v7.2.24).
+Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.2.24/PowerShell-7.2.24-win-x64.zip -> PowerShell-7.2.24-win-x64.zip
+Successfully downloaded PowerShell-7.2.24-win-x64.zip
+Extracting powershell-core...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * brotli:x64-windows@1.1.0#1 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\brotli\4e5b5ae1ad26c80535c893cc0307121f0398549e
+  * bzip2[core,tool]:x64-windows@1.0.8#6 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\bzip2\2d029da682847c5ebdc54e4dbea001331a02207e
+  * egl-registry:x64-windows@2024-01-25 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\egl-registry\d883db43133dd223c4ffdbef4193943f6784d43a
+  * freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\freetype\8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2
+  * libflac[core,stack-protector]:x64-windows@1.4.3#2 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libflac\a92a3397dfb70e6eec94fab7b3665a1288d9f7bd
+  * libogg:x64-windows@1.3.5#1 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libogg\98e27727c32704393494d32615c25b7b16eb3067
+  * libpng:x64-windows@1.6.46 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\0074ace75112e0a4ff3465de21e692c07d6e6b5f
+  * libvorbis:x64-windows@1.3.7#3 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libvorbis\23d11198ff2df7a3af54f1c4645ef71a141f2a85
+  * miniaudio:x64-windows@0.11.22 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\miniaudio\f8929fad22bd004dd7b22703e3d88267ce05988f
+  * opengl:x64-windows@2022-12-04#3 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\opengl\c3ae71738f88449ebcd781cef60d9a253fa091d4
+  * opengl-registry:x64-windows@2024-02-10#1 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\opengl-registry\22f7aa58ee78c9f0db904b6251e9265f2be26f9d
+    sfml[audio,core,graphics,network,window]:x64-windows@3.0.0 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sfml\539e682ad48a344a737634169d6b0e365c29a148
+  * stb:x64-windows@2024-07-29#1 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\stb\c362152d1d02973e7b1ce777960f8a6876656560
+  * vcpkg-cmake:x64-windows@2024-04-23 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\e74aa1e8f93278a8e71372f1fa08c3df420eb840
+  * vcpkg-cmake-config:x64-windows@2024-05-23 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\97a63e4bc1a17422ffe4eff71da53b4b561a7841
+  * zlib:x64-windows@1.3.1 -- C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\Tim\AppData\Local\vcpkg\archives in 1.14 ms. Use --debug to see more details.
+Installing 1/16 egl-registry:x64-windows@2024-01-25...
+Building egl-registry:x64-windows@2024-01-25...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\egl-registry\d883db43133dd223c4ffdbef4193943f6784d43a: info: installing overlay port from here
+Downloading https://github.com/KhronosGroup/EGL-Registry/archive/7db3005d4c2cb439f129a0adc931f3274f9019e6.tar.gz -> KhronosGroup-EGL-Registry-7db3005d4c2cb439f129a0adc931f3274f9019e6.tar.gz
+Successfully downloaded KhronosGroup-EGL-Registry-7db3005d4c2cb439f129a0adc931f3274f9019e6.tar.gz
+-- Extracting source C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/KhronosGroup-EGL-Registry-7db3005d4c2cb439f129a0adc931f3274f9019e6.tar.gz
+-- Using source at C:/Users/Tim/.vcpkg-clion/vcpkg/buildtrees/egl-registry/src/274f9019e6-49d6bdb34a.clean
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/egl-registry_x64-windows/share/egl-registry/copyright
+-- Performing post-build validation
+Starting submission of egl-registry:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle egl-registry:x64-windows: 1.5 s
+egl-registry:x64-windows package ABI: 2ba4d3df5901208e96480f4d43223e2381e8c6b4d15c161bb165326e75f8d2a3
+Installing 2/16 opengl-registry:x64-windows@2024-02-10#1...
+Building opengl-registry:x64-windows@2024-02-10#1...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\opengl-registry\22f7aa58ee78c9f0db904b6251e9265f2be26f9d: info: installing overlay port from here
+Downloading https://github.com/KhronosGroup/OpenGL-Registry/archive/3530768138c5ba3dfbb2c43c830493f632f7ea33.tar.gz -> KhronosGroup-OpenGL-Registry-3530768138c5ba3dfbb2c43c830493f632f7ea33.tar.gz
+Successfully downloaded KhronosGroup-OpenGL-Registry-3530768138c5ba3dfbb2c43c830493f632f7ea33.tar.gz
+-- Extracting source C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/KhronosGroup-OpenGL-Registry-3530768138c5ba3dfbb2c43c830493f632f7ea33.tar.gz
+-- Using source at C:/Users/Tim/.vcpkg-clion/vcpkg/buildtrees/opengl-registry/src/f632f7ea33-4952f9ace9.clean
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl-registry_x64-windows/share/opengl-registry/copyright
+-- Performing post-build validation
+Starting submission of opengl-registry:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle opengl-registry:x64-windows: 8.6 s
+opengl-registry:x64-windows package ABI: e848e55ba9ad2cb2d984ffebacc38054e7149f9f46a8977c1b1d6f055940ba36
+Completed submission of egl-registry:x64-windows to 1 binary cache(s) in 111 ms
+Installing 3/16 opengl:x64-windows@2022-12-04#3...
+Building opengl:x64-windows@2022-12-04#3...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\opengl\c3ae71738f88449ebcd781cef60d9a253fa091d4: info: installing overlay port from here
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/include/GL/gl.h
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/include/GL/glu.h
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/lib/OpenGL32.Lib
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/lib/GlU32.Lib
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/debug/lib/OpenGL32.Lib
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/debug/lib/GlU32.Lib
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/lib/pkgconfig/glu.pc
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/lib/pkgconfig/opengl.pc
+Downloading msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst, trying https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+Successfully downloaded msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+Downloading msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst, trying https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+Successfully downloaded msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/debug/lib/pkgconfig/glu.pc
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/debug/lib/pkgconfig/opengl.pc
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/opengl_x64-windows/share/opengl/usage
+-- Performing post-build validation
+Starting submission of opengl:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle opengl:x64-windows: 2.4 s
+opengl:x64-windows package ABI: 1a0a102106f826335f611367c5017448110fb9303bc3bc876a1dfc702b85eb0d
+Completed submission of opengl-registry:x64-windows to 1 binary cache(s) in 421 ms
+Installing 4/16 stb:x64-windows@2024-07-29#1...
+Building stb:x64-windows@2024-07-29#1...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\stb\c362152d1d02973e7b1ce777960f8a6876656560: info: installing overlay port from here
+Downloading https://github.com/nothings/stb/archive/f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz -> nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+Successfully downloaded nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+-- Extracting source C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/nothings-stb-f75e8d1cad7d90d72ef7a4661f1b994ef78b4e31.tar.gz
+-- Using source at C:/Users/Tim/.vcpkg-clion/vcpkg/buildtrees/stb/src/4ef78b4e31-bf024d35de.clean
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/stb_x64-windows/share/stb/FindStb.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/stb_x64-windows/share/stb/vcpkg-cmake-wrapper.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/stb_x64-windows/share/stb/usage
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/stb_x64-windows/share/stb/copyright
+-- Performing post-build validation
+Starting submission of stb:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle stb:x64-windows: 1.8 s
+stb:x64-windows package ABI: 87b1de076132e98e4a92adcf6b05051c39f8f2663644db16c30d3a172b1c7afa
+Completed submission of opengl:x64-windows to 1 binary cache(s) in 59.7 ms
+Installing 5/16 vcpkg-cmake:x64-windows@2024-04-23...
+Building vcpkg-cmake:x64-windows@2024-04-23...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\e74aa1e8f93278a8e71372f1fa08c3df420eb840: info: installing overlay port from here
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-windows/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Starting submission of vcpkg-cmake:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake:x64-windows: 105 ms
+vcpkg-cmake:x64-windows package ABI: 3e4c3775657bc2cdc9bb07d8f73153ded62fd2c20aecde2becf6e11f323af8f7
+Completed submission of stb:x64-windows to 1 binary cache(s) in 98.3 ms
+Installing 6/16 zlib:x64-windows@1.3.1...
+Building zlib:x64-windows@1.3.1...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9: info: installing overlay port from here
+Downloading https://github.com/madler/zlib/archive/v1.3.1.tar.gz -> madler-zlib-v1.3.1.tar.gz
+Successfully downloaded madler-zlib-v1.3.1.tar.gz
+-- Extracting source C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+-- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+-- Applying patch 0002-build-static-or-shared-not-both.patch
+-- Applying patch 0003-android-and-mingw-fixes.patch
+-- Using source at C:/Users/Tim/.vcpkg-clion/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/zlib_x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/zlib_x64-windows/lib/pkgconfig/zlib.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/zlib_x64-windows/debug/lib/pkgconfig/zlib.pc
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/zlib_x64-windows/share/zlib/copyright
+-- Performing post-build validation
+Starting submission of zlib:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle zlib:x64-windows: 6.6 s
+zlib:x64-windows package ABI: 3f0b8b5f52ce27eb914d035195ec732cf32ee3758c5c0748959eccf7674398a5
+Completed submission of vcpkg-cmake:x64-windows to 1 binary cache(s) in 47.6 ms
+Installing 7/16 vcpkg-cmake-config:x64-windows@2024-05-23...
+Building vcpkg-cmake-config:x64-windows@2024-05-23...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\97a63e4bc1a17422ffe4eff71da53b4b561a7841: info: installing overlay port from here
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/copyright
+-- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+Starting submission of vcpkg-cmake-config:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 42.9 ms
+vcpkg-cmake-config:x64-windows package ABI: b0cf0fa13e8f5daea4470d7f39292a5861c3b5a40407705871eb294f9f7124d1
+Installing 8/16 libpng:x64-windows@1.6.46...
+Building libpng:x64-windows@1.6.46...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\0074ace75112e0a4ff3465de21e692c07d6e6b5f: info: installing overlay port from here
+Downloading https://github.com/pnggroup/libpng/archive/v1.6.46.tar.gz -> pnggroup-libpng-v1.6.46.tar.gz
+Successfully downloaded pnggroup-libpng-v1.6.46.tar.gz
+-- Extracting source C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/pnggroup-libpng-v1.6.46.tar.gz
+-- Applying patch cmake.patch
+-- Using source at C:/Users/Tim/.vcpkg-clion/vcpkg/buildtrees/libpng/src/v1.6.46-0d105c43f9.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/share/png/vcpkg-cmake-wrapper.cmake
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/share/libpng/libpng-config.cmake
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/lib/pkgconfig/libpng16.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/debug/lib/pkgconfig/libpng16.pc
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/debug/lib/pkgconfig/libpng.pc
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/lib/pkgconfig/libpng.pc
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/share/libpng/usage
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/libpng_x64-windows/share/libpng/copyright
+-- Performing post-build validation
+Starting submission of libpng:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle libpng:x64-windows: 6.2 s
+libpng:x64-windows package ABI: 11f1ce8f08ebed7e29429f27a0117b53aa44c9d4833f1a7f947f5bc1288f0c7b
+Completed submission of zlib:x64-windows to 1 binary cache(s) in 151 ms
+Completed submission of vcpkg-cmake-config:x64-windows to 1 binary cache(s) in 22.4 ms
+Installing 9/16 bzip2[core,tool]:x64-windows@1.0.8#6...
+Building bzip2[core,tool]:x64-windows@1.0.8#6...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\bzip2\2d029da682847c5ebdc54e4dbea001331a02207e: info: installing overlay port from here
+Downloading bzip2-1.0.8.tar.gz, trying https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+Successfully downloaded bzip2-1.0.8.tar.gz
+-- Extracting source C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/bzip2-1.0.8.tar.gz
+-- Applying patch fix-import-export-macros.patch
+-- Using source at C:/Users/Tim/.vcpkg-clion/vcpkg/buildtrees/bzip2/src/bzip2-1-336d4794a3.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/bzip2_x64-windows/lib/pkgconfig/bzip2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/bzip2_x64-windows/debug/lib/pkgconfig/bzip2.pc
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/bzip2_x64-windows/share/bzip2/copyright
+-- Performing post-build validation
+Starting submission of bzip2:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle bzip2:x64-windows: 5.3 s
+bzip2:x64-windows package ABI: ed261e13c627093c4af8092195f6bc7afaf513dad0fa2eb7fe0a0bb6611ede3f
+Completed submission of libpng:x64-windows to 1 binary cache(s) in 185 ms
+Installing 10/16 brotli:x64-windows@1.1.0#1...
+Building brotli:x64-windows@1.1.0#1...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\brotli\4e5b5ae1ad26c80535c893cc0307121f0398549e: info: installing overlay port from here
+Downloading https://github.com/google/brotli/archive/v1.1.0.tar.gz -> google-brotli-v1.1.0.tar.gz
+Successfully downloaded google-brotli-v1.1.0.tar.gz
+-- Extracting source C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/google-brotli-v1.1.0.tar.gz
+-- Applying patch install.patch
+-- Applying patch fix-arm-uwp.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch emscripten.patch
+-- Using source at C:/Users/Tim/.vcpkg-clion/vcpkg/buildtrees/brotli/src/v1.1.0-958bece74c.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/lib/pkgconfig/libbrotlienc.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/Tim/.vcpkg-clion/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/debug/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/debug/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/debug/lib/pkgconfig/libbrotlienc.pc
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/share/brotli/usage
+-- Installing: C:/Users/Tim/.vcpkg-clion/vcpkg/packages/brotli_x64-windows/share/brotli/copyright
+-- Performing post-build validation
+Starting submission of brotli:x64-windows to 1 binary cache(s) in the background
+Elapsed time to handle brotli:x64-windows: 10 s
+brotli:x64-windows package ABI: 06cb3a233ef6dfabf657e1c3f0df9c6e865f0e4336f957dc9b3b584ac0f046f7
+Completed submission of bzip2:x64-windows to 1 binary cache(s) in 199 ms
+Installing 11/16 freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3...
+Building freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.3...
+C:\Users\Tim\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\freetype\8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2: info: installing overlay port from here
+Downloading https://gitlab.freedesktop.org//freetype/freetype/-/archive/VER-2-13-3/freetype-VER-2-13-3.tar.gz -> freetype-freetype-VER-2-13-3.tar.gz
+warning: Download https://gitlab.freedesktop.org//freetype/freetype/-/archive/VER-2-13-3/freetype-VER-2-13-3.tar.gz failed -- retrying after 1000ms
+warning: Download https://gitlab.freedesktop.org//freetype/freetype/-/archive/VER-2-13-3/freetype-VER-2-13-3.tar.gz failed -- retrying after 2000ms
+warning: Download https://gitlab.freedesktop.org//freetype/freetype/-/archive/VER-2-13-3/freetype-VER-2-13-3.tar.gz failed -- retrying after 4000ms
+error: https://gitlab.freedesktop.org//freetype/freetype/-/archive/VER-2-13-3/freetype-VER-2-13-3.tar.gz: WinHttpSendRequest failed with exit code 12030. The connection with the server was terminated abnormally
+note: If you are using a proxy, please ensure your proxy settings are correct.
+Possible causes are:
+1. You are actually using an HTTP proxy, but setting HTTPS_PROXY variable to `https//address:port`.
+This is not correct, because `https://` prefix claims the proxy is an HTTPS proxy, while your proxy (v2ray, shadowsocksr, etc...) is an HTTP proxy.
+Try setting `http://address:port` to both HTTP_PROXY and HTTPS_PROXY instead.
+2. If you are using Windows, vcpkg will automatically use your Windows IE Proxy Settings set by your proxy software. See: https://github.com/microsoft/vcpkg-tool/pull/77
+The value set by your proxy might be wrong, or have same `https://` prefix issue.
+3. Your proxy's remote server is our of service.
+If you believe this is not a temporary download server failure and vcpkg needs to be changed to download this file from a different location, please submit an issue to https://github.com/Microsoft/vcpkg/issues
+CMake Error at scripts/cmake/vcpkg_download_distfile.cmake:124 (message):
+  Download failed, halting portfile.
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_from_gitlab.cmake:113 (vcpkg_download_distfile)
+  buildtrees/versioning_/versions/freetype/8a2c633dcc14eaabdb31cf4637242f4e3c2f3fa2/portfile.cmake:7 (vcpkg_from_gitlab)
+  scripts/ports.cmake:196 (include)
+
+
+error: building freetype:x64-windows failed with: BUILD_FAILED
+See https://learn.microsoft.com/vcpkg/troubleshoot/build-failures?WT.mc_id=vcpkg_inproduct_cli for more information.
+Elapsed time to handle freetype:x64-windows: 8.1 s
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+  https://github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+freetype
+You can submit a new issue at:
+  https://github.com/microsoft/vcpkg/issues/new?title=[freetype]+Build+error+on+x64-windows&body=Copy%20issue%20body%20from%20C%3A%2FUsers%2FTim%2Fdev%2Fcpp%2Fpong%2Fcmake-build-debug%2Fvcpkg_installed%2Fvcpkg%2Fissue_body.md
+
+Completed submission of brotli:x64-windows to 1 binary cache(s) in 524 ms

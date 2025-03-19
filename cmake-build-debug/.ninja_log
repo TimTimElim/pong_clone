@@ -1,0 +1,7 @@
+# ninja log v6
+3	69	7628938532221806	CMakeFiles/pong.dir/main.cpp.obj.ddi	5ab503a217ac7e5a
+87	442	7628938533061124	CMakeFiles/pong.dir/main.cpp.obj	99fba20ed1074c0f
+70	87	7628938533041123	CMakeFiles/pong.dir/CXX.dd	d177b48ec237458c
+70	87	7628938533041123	C:/Users/Tim/dev/cpp/pong/cmake-build-debug/CMakeFiles/pong.dir/CXXModules.json	d177b48ec237458c
+442	889	7628938536617922	pong.exe	dad963b2bdafa09f
+70	87	7628938533041123	CMakeFiles/pong.dir/main.cpp.obj.modmap	d177b48ec237458c
